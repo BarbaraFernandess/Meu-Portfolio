@@ -19,6 +19,7 @@
 .skills .tools ul li img{
     max-width: 50px;
     margin: .5rem;
+    object-fit: cover;
 
 }
 
@@ -50,3 +51,7 @@
 
         }
     }
+
+.acordeon:hover #mysql-logo{
+    filter: brightness(0) invert(100%);
+}
