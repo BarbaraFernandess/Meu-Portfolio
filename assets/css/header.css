@@ -47,7 +47,7 @@
     font-size: 1.125rem;
 }
 
-.information p::before{
+.information p::before, .information p::after{
 
     content: '';
     display: inline-block;
@@ -73,6 +73,13 @@
     background-image: url(/assets/img/icons/email.svg);
 
 }
+
+.information .linkedin::before{
+
+    background-image: url(/assets/img/icons/linkedin.svg);
+
+}
+
 
 @media only screen and (min-width: 768px) {
 
